@@ -23,21 +23,27 @@ p {
     color: #fff; 
   }
 
-.one h1 {
+.one img {
+    max-width: 50%;
+    padding: 20px;
+    margin-left: 20%;
+}
+
+h1 {
     text-align: center;
     font-size: 500%;
     margin-top: 40vh;
 }
 
-.one h2 {
+h2 {
     text-align: center;
     font-size: 200%;
     font-style: italic;
 }
 
-.one h3 {
+h3 {
     margin-top: 20vh;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 
@@ -62,11 +68,22 @@ a:hover {
     margin: 10px;
 }
 
+/* Image */
+#monogram{
+    height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
+#pic{
+    width: 900px;
+    /* height: 180px; */
+    margin-left: auto;
+    margin-right: auto;
+}
 
  /* Mobile Friendly */
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .one h1 {
         text-align: center;
         font-size: 500%;
@@ -83,6 +100,11 @@ a:hover {
         padding-left: 15%;
         padding-right: 15%;
         font-size: 100%;
+    }
+    .one img {
+        max-width: 80%;
+        /* padding: 20px; */
+        /* margin-left: 20%; */
     }
 }
 
